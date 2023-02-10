@@ -1,3 +1,10 @@
+// station: string; the station the scooter is located at, or null if checked out
+// user: the User who checked out the Scooter, or null if docked
+// serial: a number assigned sequentially from nextSerial
+// nextSerial: a static number which starts at 1 and increments each time a new serial number is assigned
+// charge: a number from 0 (no charge at all) to 100 (fully charged)
+// isBroken: boolean
+
 const Scooter = require("../src/Scooter");
 const User = require("../src/User");
 
@@ -23,7 +30,7 @@ describe("scooter methods", () => {
     scooter = new Scooter("Bristol");
     user = new User();
   });
-
+  //rent method
   it("should allow a scooter to be checked out by a user", () => {
     scooter.checkOut(user);
     expect(scooter.user).toBe(user);
@@ -37,6 +44,7 @@ describe("scooter methods", () => {
     expect(scooter.station).toBe("Bristol");
   });
 
+  //requestRepair method
   it("should allow a scooter to be reported as broken", () => {
     scooter.reportBroken();
     expect(scooter.isBroken).toBe(true);
@@ -48,6 +56,7 @@ describe("scooter methods", () => {
     expect(scooter.isBroken).toBe(false);
   });
 
+  //charge method
   it("should allow a scooter to be charged", () => {
     scooter.chargeScooter(50);
     expect(scooter.charge).toBe(50);
@@ -58,15 +67,3 @@ describe("scooter methods", () => {
     expect(scooter.charge).toBe(100);
   });
 });
-
-//describe('scooter methods', () => {
-// tests here!
-
-//rent method
-
-//dock method
-
-//requestRepair method
-
-//charge method
-//}
