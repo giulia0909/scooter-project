@@ -100,10 +100,10 @@
                 <mxCell id="65" value="print()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="55" vertex="1">
                     <mxGeometry x="75" y="210" width="50" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+                <mxCell id="71" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="250" y="520" as="sourcePoint"/>
-                        <mxPoint x="540" y="520" as="targetPoint"/>
+                        <mxPoint x="243" y="520" as="sourcePoint"/>
+                        <mxPoint x="542" y="520.01" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="72" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="48" edge="1">
@@ -112,10 +112,10 @@
                         <mxPoint x="210" y="310" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="73" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.423;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="34" edge="1">
+                <mxCell id="73" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.423;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="490" y="240" as="sourcePoint"/>
-                        <mxPoint x="650" y="180" as="targetPoint"/>
+                        <mxPoint x="490" y="242" as="sourcePoint"/>
+                        <mxPoint x="638.06" y="360.02" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="74" value="User can rent and dock scooters" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
